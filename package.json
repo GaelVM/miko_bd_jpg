@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Get latest Pokemon GO information from Instagram posts.",
   "main": "dist/index.js",
-  "repository": "https://github.com/pmgo-professor-willow/data-instagram-posts",
-  "author": "Ze-Hao Wang",
+  "repository": "https://github.com/GaelVM/miko_bd_jpg",
+  "author": "Junior VM",
   "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/index.ts"
