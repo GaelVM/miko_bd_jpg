@@ -32,7 +32,7 @@ const getPost = async (page: Page, url: string): Promise<Post> => {
   // Download images
   const mediaList: Post['mediaList'] = [];
   for (let i = 0; i < rawImageLinks.length; i++) {
-    const storageBaseUrl = 'https://gaelvm.github.io/prueba/';
+    const storageBaseUrl = 'https://gaelvm.github.io/miko_bd_jpg/';
     const filename = `${mediaId}_${i+1}.jpg`;
     const imagePath = `./artifacts/${filename}`;
     mediaList.push({ url: new URL(filename, storageBaseUrl).href });
